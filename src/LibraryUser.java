@@ -1,8 +1,4 @@
-public class LibraryUser {
-  public String registerAccount(int age){
-      return "String";
-  }
-  public String requestBook(String bookType) {
-      return "BookType";
-  }
+public abstract class LibraryUser {
+  public abstract void registerAccount();
+  public abstract void requestBook();
 }
